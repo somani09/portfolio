@@ -36,7 +36,7 @@ export const resumeData = {
         {   
             designation: 'Front end Developer',
             duration: 'Oct 2020 - Jan 2021',
-            company: 'UDAAY',
+            company: 'UDAYY',
             location: 'Gurugram, Haryana',
             summary: 'Worked with the Front end, and Back end team on new website and internal portals. ',
             details : [
