@@ -1,4 +1,3 @@
-import react from 'react'
 import './about.scss'
 import { useInView } from 'react-intersection-observer';
 import AboutMain from './AboutMain'

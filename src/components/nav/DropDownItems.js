@@ -1,4 +1,5 @@
 import * as React from "react";
+import {useState, useEffect} from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { BiHome } from 'react-icons/bi';
@@ -19,15 +20,19 @@ const listVariants = {
 
 const listItemsVariants = {
     open: {
-      y: 0,
+      x: 0,
       opacity: 1,
+      // display: 'unset',
+      visibility: 'visible',
       transition: {
         y: { stiffness: 1000, velocity: -100 }
       }
     },
     closed: {
-      y: 50,
+      x: -50,
       opacity: 0,
+      visibility: 'hidden',
+      // display: 'none',
       transition: {
         y: { stiffness: 1000 }
       }
@@ -35,9 +40,27 @@ const listItemsVariants = {
   };
 
 
-function DropDownItems({toggle}) {
+function DropDownItems({setIsOpen, isOpen}) {
+
+    const [showList, setShowList] = useState(isOpen)
+
+    useEffect(() => {
+      var timeOut = null
+      if(isOpen)
+        setShowList(true)
+      else
+      {
+        timeOut = setTimeout(() => {
+          setShowList(false)
+        }, 1000);
+      }
+      return () => {
+        clearTimeout(timeOut)
+      }
+    }, [isOpen])
+
     return (
-        <motion.ul className="list" variants={listVariants}>
+      showList?<motion.ul className="list" variants={listVariants}>
             <motion.li
                 variants={listItemsVariants}
                 whileHover={{ scale: 1.1 }}
@@ -51,7 +74,7 @@ function DropDownItems({toggle}) {
                     smooth={true}
                     duration={1000}
                     offset={5}
-                    onClick={toggle}
+                    onClick={() => setIsOpen(false)}
                 >   
                     <BiHome className="linkIcon"/>
                     <div className="iconText center"><span>Home</span></div>
@@ -71,7 +94,7 @@ function DropDownItems({toggle}) {
                   smooth={true}
                   duration={1000}
                   offset={5}
-                  onClick={toggle}
+                  onClick={() => setIsOpen(false)}
               >   
                   <MdPersonOutline className="linkIcon"/>
                   <div className="iconText center">about</div>
@@ -91,7 +114,7 @@ function DropDownItems({toggle}) {
                   smooth={true}
                   duration={1000}
                   offset={5}
-                  onClick={toggle}
+                  onClick={() => setIsOpen(false)}
                 >   
                   <AiOutlineProfile className="linkIcon"/>
                   <div className="iconText center"><span>Resume</span></div>
@@ -111,7 +134,7 @@ function DropDownItems({toggle}) {
                   smooth={true}
                   duration={1000}
                   offset={5}
-                  onClick={toggle}
+                  onClick={() => setIsOpen(false)}
                 >   
                   <GiSkills className="linkIcon"/>
                   <div className="iconText center"><span>Skills</span></div>
@@ -151,14 +174,14 @@ function DropDownItems({toggle}) {
                   smooth={true}
                   duration={1000}
                   offset={5}
-                  onClick={toggle}
+                  onClick={() => setIsOpen(false)}
                   >   
                   <GrContact className="linkIcon"/>
                   <div className="iconText center"><span>Contact</span></div>
                 </Link>
             </motion.li>
 
-        </motion.ul>
+        </motion.ul>:null
     )
 }
 

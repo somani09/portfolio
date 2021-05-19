@@ -1,5 +1,5 @@
-import React, {useRef} from 'react'
-import { motion, useCycle } from "framer-motion";
+import React, {useRef, useState} from 'react'
+import { motion } from "framer-motion";
 import { useDimensions } from "./use-dimensions";
 import './dropDownNav.scss'
 import { MenuToggle } from "./MenuToggle";
@@ -27,7 +27,8 @@ const sidebar = {
 
 function DropDownNav() {
 
-    const [isOpen, toggleOpen] = useCycle(false, true);
+    // const [isOpen, toggleOpen] = useCycle(false, true);
+    const [isOpen, setIsOpen] = useState(false)
     const containerRef = useRef(null);
     const { height } = useDimensions(containerRef);  
 
@@ -36,7 +37,7 @@ function DropDownNav() {
       <>
           {isOpen?<div 
             className="forClose"
-            onClick={() => toggleOpen()}
+            onClick={() => setIsOpen(false)}
             ></div>:null}
         <motion.nav 
             className="dropNav" 
@@ -50,8 +51,8 @@ function DropDownNav() {
                 className="dropDownNav"
                 variants={sidebar}
             >
-              <DropDownItems  toggle={() => toggleOpen()}/>
-              <MenuToggle toggle={() => toggleOpen()} />    
+              <DropDownItems  setIsOpen={setIsOpen} isOpen={isOpen}/>
+              <MenuToggle setIsOpen={setIsOpen} isOpen={isOpen} />    
             </motion.div>
         </motion.nav>
         

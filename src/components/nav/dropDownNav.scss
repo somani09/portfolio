@@ -7,7 +7,6 @@
   top:0;
   left: 0;
   z-index: 2;
-  
   height: 100vh;
   width: 100%;
 }
@@ -24,7 +23,11 @@
     flex-direction: column;
     justify-content: center;
 
-
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
     
 
     button {
@@ -54,6 +57,7 @@
         padding: 25px;
         position: absolute;
         width: 230px;
+        
       }
       
       li {
