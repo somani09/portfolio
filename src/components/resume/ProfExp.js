@@ -29,7 +29,7 @@ function ProfExp({profExp}) {
                     </em>
                     
                     <div className="companySummary">
-                        <span className="semi-bold sumText">Summery </span>- {x.summary}
+                        <span className="semi-bold sumText">Summary </span>- {x.summary}
                     </div>
                     {x.details&&<button className="detailsButton" onClick={()=>{setDetailsOpen(true);setShowId(i)}}>Details</button>}
                     <AnimatePresence exitBeforeEnter>
