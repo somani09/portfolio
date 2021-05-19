@@ -1,0 +1,48 @@
+.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    // background-color: rgba(152, 57, 179,.8);
+    z-index: 1;
+
+    
+
+    .backgroundImage{
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        // right: -150px;
+        // left: 150px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .outer{
+        background-color: white;
+    }
+
+    .backImage{
+        z-index: -1;
+        height: 100%;
+        // width: 100%;
+        object-fit: contain ;
+        position: absolute;
+        top: 100%;
+        // right: 50%;
+        left: calc( 100% + 300px );
+        transform: translate(-100%, -100%);
+        opacity: .5;
+    }
+}
+
+@media screen and (min-width:769px)
+{
+    .main{
+        width: calc(100% - 150px);
+        margin-left: 150px;
+
+        .backImage{
+            left: calc( 100% - 120px);
+        }
+    }
+}

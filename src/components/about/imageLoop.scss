@@ -1,0 +1,23 @@
+.loopArea{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+}
+
+.loopImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width:769px)
+{
+    .loopImage{
+        height: unset;
+    }
+}

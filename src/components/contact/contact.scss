@@ -1,0 +1,320 @@
+.contact {
+    position: relative;
+    background-color: white ;
+    width: 100%;
+    top:-10px;
+
+
+    .content {
+        position: relative;
+        width: 100%;
+        // background-color:green;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+
+    .socialsArea1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .typeBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+        padding: 20px;
+        background-color: #fafafa;
+        margin: 20px 10px;
+    }
+
+    .contactIconContainer{
+        background-color: rgba(72, 24, 89,.4);
+        color: rgba(72, 24, 89,.95);
+        border-radius: 50%;
+    }
+
+    .contactIcons {
+        width: 30px;
+        height: 30px;
+        padding: 15px;
+    }
+
+    .socialIconsList {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .socialsIconContainer{
+        background-color: transparent;
+        color: rgba(72, 24, 89,.95); 
+        border-radius: 50%;
+        border: 1px solid rgba(72, 24, 89,.95);
+        margin: 5px 10px;
+    }
+
+    .socialsIcon {
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+    }
+
+    .socialsIconlogo{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .contactTypes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+    .contactForm{
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+        background-color: #fafafa;
+        // background-color: #ffffff;
+        padding:20px;
+        
+        form{
+            width: 100%;
+        }
+
+        .name-mail{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .text-field {
+            width: 100%;
+            position: relative;
+            margin: 10px 2.5px 20px 2.5px;
+            // margin: 10px 0;
+        }
+
+        
+    
+        input, textarea {
+                display: inline-block;
+                border: 2px solid rgba(72, 24, 89,.8);
+                // border-bottom: solid medium #999;
+                color: #444;
+                background-color: transparent;
+                padding: 5px;
+                // padding: 10px 10px 10px 10px;
+                // border-top-left-radius: 10px;
+                // border-top-right-radius: 10px;
+                border-radius: 5px;
+                width: 90%;
+            }
+
+            input {
+                height: 40px;
+            }
+
+            textarea {
+                resize: none;
+             }
+
+            input:focus, textarea:focus {
+                    border: 2px solid rgba(72, 24, 89,.8);
+                    background-color:transparent;
+                    outline: none;
+                }
+        
+        label {
+                color: #999;
+                position: absolute;
+                pointer-events: none;
+                left: 10px;
+                top: 10px;
+                transition: 0.2s;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        
+        // input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label {
+                // top: -10px;
+                // left: 15px;
+                // font-size: 14px;
+                // font-weight: 600;
+                // color: rgba(72, 24, 89,.8);
+                // background-color:#fafafa;
+                // padding:0 5px 0 5px;
+                // transition: .2s;
+        //     }
+
+        input:not(:placeholder-shown) ~ label, input:focus ~ label, textarea:not(:placeholder-shown) ~ label, textarea:focus ~ label {
+            top: -10px;
+            left: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(72, 24, 89,.8);
+            background-color:#fafafa;
+            padding:0 5px 0 5px;
+            transition: .2s;
+          }
+
+            .formButton{
+                font-size: 20px;
+                background-color: rgba(98, 73, 107, 0.9);
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor:pointer;
+                transition: all .5s ease;
+                font-weight: 400;
+            }
+        
+            .formButton:hover {
+                background-color: rgba(142, 104, 156, 0.9);
+                color: rgb(53, 53, 53);
+                transition: all .5s ease;
+            }
+
+            .error{
+                font-size: 14px;
+                color: red;
+                font-style: italic;
+            }
+
+            .sending{
+                margin-top: 7px;
+                height: 10px;
+                font-weight: 600;
+            }
+
+    }
+
+    .email-phone{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:769px)
+{
+    .contact {
+
+        .content{
+            position: relative;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 40px 0 40px 0; 
+        }
+
+        .socialsArea1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+        }
+
+        .typeBox{
+            width: 150px;
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+            padding: 20px;
+        }
+
+        .socialIconsList {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .socialsIconContainer{
+            background-color: transparent;
+            color: rgba(72, 24, 89,.95); 
+            border-radius: 50%;
+            border: 1px solid rgba(72, 24, 89,.95);
+            margin: 5px 10px;
+        }
+
+        .socialsIcon {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+        }
+
+        .socialsIconlogo{
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+
+        .contactTypes{
+          width: unset;  
+            flex-direction: row;
+
+        }
+
+        .email-phone {
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+
+        .email-phone:hover{
+            transform: scale(1.1);
+            transition: all .2s ease;
+        }
+
+        .contactForm{
+            width: 40%;
+
+            padding: 20px 35px 20px 20px;
+
+            .text-field {
+                margin: 5px 0;
+            }
+
+            .name-mail{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .nameInput, .emailInput{
+                // margin-right:5px ;
+                width: 48%;
+            }
+
+            input {
+                height: 50px;
+            }
+
+            input, textarea {
+                width:100%;
+            }
+        }
+
+        .socialsArea2{
+            display: none;
+            
+        }
+
+    }
+}

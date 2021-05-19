@@ -1,0 +1,86 @@
+.home {
+    position: relative;
+    // background-color: purple;
+    height: 110%;
+    align-items: center;        
+    justify-content: center;
+    top:-10px;
+    .intro {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeTitle {
+        text-align: center;
+        font-size: 40px;
+        font-weight: normal;
+        color: #45505b;
+        margin-bottom: 10px;
+    }
+
+    .desc {
+        font-size: 20px;
+        font-weight:bold;
+        color: rgba(72, 24, 89,.8);
+        margin-bottom: 10px;
+
+    }
+
+    .heading::after {
+       all: unset;
+    }
+
+    .heading::before{
+        all: unset;
+    }
+
+    .socials{
+        margin-left: 20px;
+        align-items: flex-end;
+    }
+
+    .socialIcons{
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+        color: rgba(72, 24, 89, 0.95);
+    }
+
+    .socialIconsLogo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (min-width:769px)
+{
+    .home {
+
+        align-items: center;        
+        justify-content: flex-start;
+
+
+        .intro {
+            margin-left: 100px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 100px;
+        }
+
+        .homeTitle {
+            font-size: 80px;
+            font-weight: normal;
+            color: #45505b;
+            margin-bottom: 10px;
+        }
+
+        .desc {
+            font-size: 30px;
+            font-weight:bold;
+            color: rgba(72, 24, 89,.8);
+            margin:0 0 10px 20px;
+        }
+
+        
+    }
+}
