@@ -2,7 +2,7 @@ export const resumeData = {
     text: "",
     summary : {
         name: 'Vaibhav Somani',
-        summary: 'Enthusiastic, inquisitive, yet phlegmatic Computer Engineer professionally skilled at React js with a strong foundation of C++ and Java. Adept at building responsive websites.',
+        summary: 'Enthusiastic, inquisitive, yet phlegmatic Computer Engineer professionally skilled at React js with a strong foundation of C++ and Java. Adept at developing responsive websites. Quick and efficient at grasping new concepts, and adapt to new environment.',
         address: 'S-38, Shivalik Nagar, BHEL, Haridwar, Uttarakhand',
         phone : '+91 9897733043',
         email: 'vsomani2@gmail.com',
@@ -63,8 +63,8 @@ export const resumeData = {
             learning: 'React js'
         },
         {   
-            designation: 'Intern at Nokia',
-            duration: 'Jan 2020 - Jul 2021',
+            designation: 'Developer (Intern)',
+            duration: 'Jan 2020 - Jul 2020',
             company: 'NOKIA NETWORKS',
             location: 'Chennai, Tamil Nadu',
             summary: 'Worked with Analytics team on Network Analyzer and Complete Network Insights.',
@@ -89,7 +89,7 @@ export const resumeData = {
             learning: 'Java, Docker, Kubernetes, Helm. Learned Basics of Hadoop, kafka, Jenkins, devTools'
         },
         {   
-            designation: 'Intern at Synokiq',
+            designation: 'Java Developer (Intern)',
             duration: 'Dec 2018 - Jan 2019',
             company: 'SYNORIQ',
             location: 'Jaipur, Rajasthan',

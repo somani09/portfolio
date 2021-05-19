@@ -26,7 +26,7 @@ export const aboutData = {
             value: "23",
         },
         {
-            title: "Degree",
+            title: "Qualification",
             value: "B.Tech (Computer Science)",
         },
         {

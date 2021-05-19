@@ -19,30 +19,30 @@ export const skillsData = {
         },
         {
             name: 'CSS',
-            percent: '70%',
+            percent: '50%',
         },
         {
             name: 'Bootstrap',
-            percent: '60%',
+            percent: '40%',
         },
         {
             name: 'SQL',
-            percent: '30%',
+            percent: '20%',
         },
     ],
 
     tools : [
         {
             name: 'Kubernetes ',
-            percent: '30%',
+            percent: '25%',
         },
         {
             name: 'Docker',
-            percent: '30%',
+            percent: '25%',
         },
         {
             name: 'Web Automation using java ',
-            percent: '70%',
+            percent: '60%',
         },
         {
             name: 'Selenium Web Drivers  ',
