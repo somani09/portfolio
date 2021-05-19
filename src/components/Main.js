@@ -30,8 +30,8 @@ function Main({ setLoaded}) {
             <Home />
             <Background  setLoaded={setLoaded}/>
             <About loading={loading}  />
-            <Skills loading={loading}  />
             <Resume loading={loading}  />
+            <Skills loading={loading}  />
             {/* <Project /> */}
             <Contact loading={loading} />
             <Suspense fallback={<div className="mainLoader center w100 "><img src={loading} height="20px" alt="loading" /></div>}>

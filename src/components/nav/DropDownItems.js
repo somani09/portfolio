@@ -86,15 +86,15 @@ function DropDownItems({toggle}) {
                 <Link
                   className="item"
                   activeClass="active"
-                  to="skills"
+                  to="resume"
                   spy={true}
                   smooth={true}
                   duration={1000}
                   offset={5}
                   onClick={toggle}
                 >   
-                  <GiSkills className="linkIcon"/>
-                  <div className="iconText center"><span>Skills</span></div>
+                  <AiOutlineProfile className="linkIcon"/>
+                  <div className="iconText center"><span>Resume</span></div>
                 </Link>
             </motion.li>
 
@@ -106,15 +106,15 @@ function DropDownItems({toggle}) {
                 <Link
                   className="item"
                   activeClass="active"
-                  to="resume"
+                  to="skills"
                   spy={true}
                   smooth={true}
                   duration={1000}
                   offset={5}
                   onClick={toggle}
                 >   
-                  <AiOutlineProfile className="linkIcon"/>
-                  <div className="iconText center"><span>Resume</span></div>
+                  <GiSkills className="linkIcon"/>
+                  <div className="iconText center"><span>Skills</span></div>
                 </Link>
             </motion.li>
 

@@ -1,5 +1,5 @@
 export const skillsData = {
-    text: "Well aquinted with C++, and a strong foundation in Java, I've always been absorbed in learning new languages, softwares and development tools, helping me develop a repertoire of various skills.",
+    text: "Well acquainted with C++, and a strong foundation in Java, I've always been absorbed in learning new languages, softwares and development tools, helping me develop a repertoire of various skills.",
     language : [
         {
             name: 'c++',
