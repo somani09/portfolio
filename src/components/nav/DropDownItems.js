@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { BiHome } from 'react-icons/bi';
 import { MdPersonOutline } from 'react-icons/md'
 import { AiOutlineProfile } from 'react-icons/ai'
-// import { GrProjects } from 'react-icons/gr'
+import { GrProjects } from 'react-icons/gr'
 import { GrContact } from 'react-icons/gr'
 import { GiSkills } from 'react-icons/gi'
 
@@ -141,7 +141,7 @@ function DropDownItems({setIsOpen, isOpen}) {
                 </Link>
             </motion.li>
 
-            {/* <motion.li
+            <motion.li
                 variants={listItemsVariants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -154,12 +154,12 @@ function DropDownItems({setIsOpen, isOpen}) {
                   smooth={true}
                   duration={1000}
                   offset={5}
-                  onClick={toggle}
+                  onClick={() => setIsOpen(false)}
                  >   
                   <GrProjects className="linkIcon"/>
                   <div className="iconText center"><span>Projects</span></div>
                 </Link>  
-            </motion.li> */}
+            </motion.li>
 
             <motion.li
                 variants={listItemsVariants}

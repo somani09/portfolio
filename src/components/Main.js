@@ -8,7 +8,7 @@ import About from './about/About'
 import Contact from './contact/Contact'
 import Resume from './resume/Resume'
 import Skills from './skills/Skills'
-
+import Project from './projects/Project'
 // const Background = React.lazy(() => import('./Background'));
 // const About = React.lazy(() => import('./about/About'));
 // const Contact = React.lazy(() => import('./contact/Contact'));
@@ -32,7 +32,7 @@ function Main({ setLoaded}) {
             <About loading={loading}  />
             <Resume loading={loading}  />
             <Skills loading={loading}  />
-            {/* <Project /> */}
+            <Project loading={loading}/>
             <Contact loading={loading} />
             <Suspense fallback={<div className="mainLoader center w100 "><img src={loading} height="20px" alt="loading" /></div>}>
                 <Footer />

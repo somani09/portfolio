@@ -10,25 +10,25 @@ import ProfExp from './ProfExp'
 function ResumeMain() {
     return (
         <motion.div  
-                variants={fadeInVariant}
-                className="resume flex-col">
+            variants={fadeInVariant}
+            className="resume flex-col">
 
-                <Head title="RESUME" text={resumeData.text} />
+            <Head title="RESUME" text={resumeData.text} />
 
-                <div className="content">
+            <div className="content">
 
-                    <div className="resume-col">
-                        <Summary  summary={resumeData.summary} />
-                        <Education education={resumeData.education}  />
-                    </div>
-                        
-                    <div className="resume-col">
-                        <ProfExp profExp={resumeData.profExp} />
-                    </div>
-
+                <div className="resume-col">
+                    <Summary  summary={resumeData.summary} />
+                    <Education education={resumeData.education}  />
+                </div>
+                    
+                <div className="resume-col">
+                    <ProfExp profExp={resumeData.profExp} />
                 </div>
 
-            </motion.div>
+            </div>
+
+        </motion.div>
     )
 }
 

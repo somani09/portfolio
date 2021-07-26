@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { BiHome } from 'react-icons/bi';
 import { MdPersonOutline } from 'react-icons/md'
 import { AiOutlineProfile } from 'react-icons/ai'
-// import { GrProjects } from 'react-icons/gr'
+import { GrProjects } from 'react-icons/gr'
 import { GrContact } from 'react-icons/gr'
 import { GiSkills } from 'react-icons/gi'
 import {motion} from 'framer-motion'
@@ -109,7 +109,7 @@ function SideBarNav() {
                         </Link>
                     </motion.div>
 
-                    {/* <motion.div
+                    <motion.div
                     variants={linkSpring}
                     initial="initial"
                     animate="animate"
@@ -127,13 +127,13 @@ function SideBarNav() {
                             <GrProjects className="linkIcon"/>
                             <div className="iconText center"><span>Projects</span></div>
                         </Link>
-                    </motion.div> */}
+                    </motion.div>
 
                     <motion.div
                     variants={linkSpring}
                     initial="initial"
                     animate="animate"
-                    custom={5}
+                    custom={6}
                     >
                         <Link
                             className="item"
