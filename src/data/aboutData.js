@@ -4,10 +4,10 @@ import image3 from '../assets/images/aboutImages/image3.jpg'
 import image4 from '../assets/images/aboutImages/image4.jpg'
 
 export const aboutData = {
-    aboutIntro : "Oh, Hey there, I am Vaibhav Somani, Computer Science(B.Tech) graduate. Developer and a programmer, my first language is Java, while my development revolves around React JS. I'm fond of learning new tech, and have recently been intrigued by game development and upcoming technologies like AR and VR, and will surely have a stab on them in the near future. Quick bit about my hobby, I love making music in my spare time.",
+    aboutIntro : "Oh, Hey there, I am Vaibhav Somani, Graduate Student in Computer Science at Arizona State University looking for SDE/SWE summer 2023 internship opportunities. As a software Engineer specializing in Front End Development, I've worked as a React JS developer for over a year, with my most recent position as team lead and mentor, I have become proficient at creating mobile-first, dynamic, and responsive websites. A quick bit about my hobby, I love making music in my spare time.",
     loopImages : [image1,image2,image3,image4],
     subHeading: "Front End, React Developer",
-    moreInfo : "Fascinated and amused by the quality and features React brings to the table when it comes to Front end Development, I've been thrilled to learn React, with it's vast community support, stability, scalability, performance, and yet a simple to use code base.",
+    moreInfo : "With solid foundations in C++ and Java, my initial development journey started with creating Java software. But after learning about web development and being fascinated and amused by the quality and features React Js brings to the table when it comes to Front end Development, I've been thrilled to learn and work with React JS, with its vast community support, stability, scalability, performance, and yet a simple to use code base.",
     info : [
         {
             title: "Birthday",
@@ -15,19 +15,19 @@ export const aboutData = {
         },
         {
             title: "Phone",
-            value: "+91 9897733043",
+            value: "+1 6027852214",
         },
         {
             title: "City",
-            value: "Haridwar, Utk, India",
+            value: "Tempe, Arizona, 85281, US",
         },
         {
             title: "Age",
-            value: "23",
+            value: "24",
         },
         {
             title: "Qualification",
-            value: "B.Tech (Computer Science)",
+            value: "Masters in Computer Science",
         },
         {
             title: "Email",
