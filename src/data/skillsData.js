@@ -11,6 +11,10 @@ export const skillsData = {
         },
         {
             name: 'React js',
+            percent: '85%',
+        },
+        {
+            name: 'Next js',
             percent: '65%',
         },
         {
@@ -40,14 +44,19 @@ export const skillsData = {
             name: 'Docker',
             percent: '25%',
         },
+        // {
+        //     name: 'Web Automation using java ',
+        //     percent: '60%',
+        // },
+        // {
+        //     name: 'Selenium Web Drivers  ',
+        //     percent: '60%',
+        // },
         {
-            name: 'Web Automation using java ',
-            percent: '60%',
+            name: 'git',
+            percent: '50%',
         },
-        {
-            name: 'Selenium Web Drivers  ',
-            percent: '60%',
-        },
+
         {
             name: 'After Effects  ',
             percent: '60%',

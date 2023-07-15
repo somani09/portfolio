@@ -3,11 +3,17 @@ import SomaniMusicIcon from '../assets/images/projectImages/SomaniMusicIcon.jpg'
 import UdayyAboutUsIcon from '../assets/images/projectImages/UdayyAboutUsIcon.jpg'
 import UdayyHomeIcon from '../assets/images/projectImages/UdayyHomeIcon.jpg'
 import FacebookPostClone from '../assets/images/projectImages/facebook-post-clone.jpg'
+import Artfolio from '../assets/images/projectImages/artfolio.jpg'
 
 export const projectData = {
     text:"",
     projects :[
-       
+        {
+            title: "Artfolio by Somani",
+            about:"",
+            image: Artfolio,
+            link: "https://artfoliobysomani.vercel.app/"
+        },       
         {
             title: "Somani Music",
             about:"",

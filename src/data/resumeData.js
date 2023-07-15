@@ -3,7 +3,7 @@ export const resumeData = {
   summary: {
     name: "Vaibhav Somani",
     summary:
-      "Enthusiastic, inquisitive, yet phlegmatic Computer Engineer professionally skilled at React js with a strong foundation of C++ and Java. Adept at developing responsive websites. Quick and efficient at grasping new concepts, and adapt to new environment.",
+      "Proactive and versatile Web Developer with expertise in Java and JavaScript, specializing in creating dynamic and intuitive interfaces. Skilled in React.js and Next.js frameworks, with a solid grasp of professional tools and practices. Dedicated to enhancing UX/UI expertise, continuous learning, adopting emerging technologies, and fostering productive collaboration for driving innovative solutions.",
     address: "Tempe, Arizona, 85281, US",
     phone: "+1 6027852214",
     email: "vsomani2@gmail.com",
@@ -13,7 +13,7 @@ export const resumeData = {
     {
       degree: "Masters in Computer Science",
       institute: "Arizona State University",
-      time1: "2022-on going",
+      time1: "Jan 2022 - Dec 2023(Anticipated)",
       // percentage: "78%",
       summary:
         "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend",
@@ -46,19 +46,19 @@ export const resumeData = {
 
   profExp: [
     {
-      designation: "Front End Developer",
+      designation: "Front End Developer | Team Lead| Mentor",
       duration: "sept 2021 - Jan 2022",
       company: "SYNORIQ",
       location: "Jaipur, Rajasthan",
       summary:
-        "Team lead for Goodworker(client)  Job Portal.",
+        "Led and coordinated a team for GoodWorker's job portal, ensuring seamless API integration and streamlined data flow using GraphQL. Implemented efficient features like a two-page job posting form, candidate management system, and access control for decentralized job posting. Mentored interns to enhance their React.js skills and contributed to overall development acceleration.",
       details: [
         {
-          task: "Drafted 1st version of the Job Portal for beta testing",
+          task: "Led a 5-member team for GoodWorker's job porta(beta), ensuring seamless integration with APIs by coordinating backend-frontend info flow. Streamlined data flow using graphQL, enhanced developer experience through the scrum, and boosted client satisfaction with continuous Jira updates.",
           link: "",
         },
         {
-          task: "Web Development and React JS Mentor for interns.",
+          task: "Successfully implemented a two-page job posting form with data prefill and draft-saving capabilities, reducing posting time by 35%. Developed job listings with filters and a comprehensive candidate management system, resulting in a 25% increase in recruiter productivity. Introduced company profiling, achieving 20% better recruiter ratings. Leveraged React.js (TypeScript) and Redux for efficient, scalable development.",
           // subInfo: [
           //   "Job listing - Page to show all jobs posted by the employer. Contains filters to filter out Posted-by, Location, and Job role; Contains page navigation at the bottom.",
           //   "Job posting- Page to allow the user to fill a 2 step form.",
@@ -71,7 +71,11 @@ export const resumeData = {
         //   link: "",
         // },
         {
-          task: "Co-ordinated between backend and frontend to understand backend requirements and provide them with a basic data structure for APIs",
+          task: "Implemented access control to enable multiple employees for decentralized job posting, doubling overall efficiency. Reduced dependency and mitigated single-point failure risk by nearly 99%Co-ordinated between backend and frontend to understand backend requirements and provide them with a basic data structure for APIs",
+          link: "",
+        },
+        {
+          task: "Accelerated development by mentoring interns, equipping them with expertise in React.js and web development concepts.",
           link: "",
         },
       ],
@@ -84,24 +88,20 @@ export const resumeData = {
       company: "UDAYY",
       location: "Gurugram, Haryana",
       summary:
-        "Revamped Website and internal portals",
+        "Revamped website with React JS, achieving fast loading times and improving user experience. Implemented A/B testing, increasing conversion rates and reducing bounce rates. Led development of an internal portal, streamlining processes and improving collaboration efficiency. Expanded event reach through user-friendly registration, driving sign-ups and attendance. Developed affiliate marketing page, increasing website traffic and attracting new customers.",
       details: [
         {
-          task: "Instantiated development of 2nd version of the website with A-B testing optimization.",
-          // link: "https://www.udayy.com",
+          task: "Revamped the website with React JS, achieving sub-3 second loading on a 4G network, boosting performance and user experience. Implemented A/B testing, resulting in a 20% increase in conversion rates and a 15% decrease in bounce rates, improving website engagement and user retention.",
         },
         {
-          task: "Developed an internal portal for centralization of cross-platform updation of database",
-          // link: "https://www.udayy.com",
+          task: "Led the development of an internal portal for cross-platform updates and centralized database management, achieving 40% fewer manual processes and 20% better collaboration efficiency. Boosted productivity, saving 5 hours/week per team member creating quizzes.",
         },
-        // {
-        //   task: "Worked on the Home page",
-        //   link: "https://www.udayy.com",
-        // },
-        // {
-        //   task: "Worked on the About us page",
-        //   link: "https://www.udayy.com/about-us",
-        // },
+        {
+          task: "Successfully expanded event reach by 30% through a user-friendly registration form for Math Olympiad, increasing sign-ups and improving attendance, enhancing event success and impact",
+        },
+        {
+          task: "Developed SuperMoms page, an affiliate marketing platform tailored to housewives, driving a 30% increase in website traffic. Successfully enhanced brand visibility and attracted a new demographic of potential customers.",
+        },
         // {
         //   task: "Created OTP screen for mobile authentication",
         //   link: "",
@@ -129,11 +129,11 @@ export const resumeData = {
         "Developer for Analytic Team on Network Analyzer and Complete Network Insights.",
       details: [
         {
-          task: "Introductory to docker, Kubernetes, Hadoop, Kafka, Jenkins, and Devops.",
+          task: "Acquired an understanding of docker, Kubernetes, helm, Hadoop, Kafka, Jenkins, and DevOps.",
           link: "",
         },
         {
-          task: "Developed configuration helm file for installation and management of MariaDB, Reducing workload by 90%.",
+          task: "Significantly reduced workload by developing a Helm configuration file for MariaDB installation and management. Achieved a remarkable 90% workload reduction by automating Kubernetes configuration and eliminating manual setup. Streamlined efficiency in managing MariaDB setup effortlessly.",
           link: "",
         },
         // {
