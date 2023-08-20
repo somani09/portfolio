@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[7],{80:function(o,t,i){},88:function(o,t,i){"use strict";i.r(t);i(2),i(80);var e=i(57),n=i(3);t.default=function(){return Object(n.jsxs)("div",{id:"footer",className:"footer center",children:["Copyright \xa0 ",Object(n.jsx)(e.a,{}),"\xa0 2021  Vaibhav Somani"]})}}}]);
-//# sourceMappingURL=7.a35aa4d7.chunk.js.map
