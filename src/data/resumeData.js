@@ -1,19 +1,20 @@
 export const resumeData = {
   text: "",
   summary: {
-    name: "Vaibhav Somani",
-    summary:
-      "Proactive and versatile Web Developer with expertise in Java and JavaScript, specializing in creating dynamic and intuitive interfaces. Skilled in React.js and Next.js frameworks, with a solid grasp of professional tools and practices. Dedicated to enhancing UX/UI expertise, continuous learning, adopting emerging technologies, and fostering productive collaboration for driving innovative solutions.",
-    address: "Tempe, Arizona, 85281, US",
-    phone: "+1 6027852214",
-    email: "vsomani2@gmail.com",
-  },
+  name: "Vaibhav Somani",
+  summary:
+    "Full Stack Developer with 3+ years of experience delivering performant, user-centric web applications using Java, JavaScript, TypeScript, React.js, Next.js, and Node.js. Proficient in crafting scalable frontends and integrating robust backend APIs, with a strong focus on usability, accessibility, and clean architecture. Passionate about continuous learning, system design, and building tools that improve engineering workflows and product impact.",
+  address: "St. Louis, Missouri, 63101, US",
+  phone: "+1 6027852214",
+  email: "vsomani2@gmail.com",
+},
+
 
   education: [
     {
       degree: "Masters in Computer Science",
       institute: "Arizona State University",
-      time1: "Jan 2022 - Dec 2023(Anticipated)",
+      time1: "Jan 2022 - Dec 2023",
       // percentage: "78%",
       summary:
         "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend",
@@ -45,124 +46,113 @@ export const resumeData = {
   ],
 
   profExp: [
-    {
-      designation: "Front End Developer | Team Lead| Mentor",
-      duration: "sept 2021 - Jan 2022",
-      company: "SYNORIQ",
-      location: "Jaipur, Rajasthan",
-      summary:
-        "Led and coordinated a team for GoodWorker's job portal, ensuring seamless API integration and streamlined data flow using GraphQL. Implemented efficient features like a two-page job posting form, candidate management system, and access control for decentralized job posting. Mentored interns to enhance their React.js skills and contributed to overall development acceleration.",
-      details: [
-        {
-          task: "Led a 5-member team for GoodWorker's job porta(beta), ensuring seamless integration with APIs by coordinating backend-frontend info flow. Streamlined data flow using graphQL, enhanced developer experience through the scrum, and boosted client satisfaction with continuous Jira updates.",
-          link: "",
-        },
-        {
-          task: "Successfully implemented a two-page job posting form with data prefill and draft-saving capabilities, reducing posting time by 35%. Developed job listings with filters and a comprehensive candidate management system, resulting in a 25% increase in recruiter productivity. Introduced company profiling, achieving 20% better recruiter ratings. Leveraged React.js (TypeScript) and Redux for efficient, scalable development.",
-          // subInfo: [
-          //   "Job listing - Page to show all jobs posted by the employer. Contains filters to filter out Posted-by, Location, and Job role; Contains page navigation at the bottom.",
-          //   "Job posting- Page to allow the user to fill a 2 step form.",
-          //   "Candidate Movement - Page to allow the employer to see all the candidates for a job. Candidates can be in different positions in the process, and the employer can change the status of the applied candidate. This page also contains filters to sort candidates.",
-          // ],
-          // link: "not live",
-        },
-        // {
-        //   task: "Taught and mentored 2 interns to help them understand important concepts of web development, and to help them become proficient at React js.",
-        //   link: "",
-        // },
-        {
-          task: "Implemented access control to enable multiple employees for decentralized job posting, doubling overall efficiency. Reduced dependency and mitigated single-point failure risk by nearly 99%Co-ordinated between backend and frontend to understand backend requirements and provide them with a basic data structure for APIs",
-          link: "",
-        },
-        {
-          task: "Accelerated development by mentoring interns, equipping them with expertise in React.js and web development concepts.",
-          link: "",
-        },
-      ],
-      learning:
-        "React js, HTML, SCSS, TypeScript, communication skills required to interact with a client, learnt about client based product requirements and time management for team, mentorship",
-    },
-    {
-      designation: "Front end Developer",
-      duration: "Oct 2020 - Jan 2021",
-      company: "UDAYY",
-      location: "Gurugram, Haryana",
-      summary:
-        "Revamped website with React JS, achieving fast loading times and improving user experience. Implemented A/B testing, increasing conversion rates and reducing bounce rates. Led development of an internal portal, streamlining processes and improving collaboration efficiency. Expanded event reach through user-friendly registration, driving sign-ups and attendance. Developed affiliate marketing page, increasing website traffic and attracting new customers.",
-      details: [
-        {
-          task: "Revamped the website with React JS, achieving sub-3 second loading on a 4G network, boosting performance and user experience. Implemented A/B testing, resulting in a 20% increase in conversion rates and a 15% decrease in bounce rates, improving website engagement and user retention.",
-        },
-        {
-          task: "Led the development of an internal portal for cross-platform updates and centralized database management, achieving 40% fewer manual processes and 20% better collaboration efficiency. Boosted productivity, saving 5 hours/week per team member creating quizzes.",
-        },
-        {
-          task: "Successfully expanded event reach by 30% through a user-friendly registration form for Math Olympiad, increasing sign-ups and improving attendance, enhancing event success and impact",
-        },
-        {
-          task: "Developed SuperMoms page, an affiliate marketing platform tailored to housewives, driving a 30% increase in website traffic. Successfully enhanced brand visibility and attracted a new demographic of potential customers.",
-        },
-        // {
-        //   task: "Created OTP screen for mobile authentication",
-        //   link: "",
-        // },
-        // {
-        //   task: "Developed quiz portal for internal use, for feeding quizes data to the backend ",
-        //   link: "",
-        // },
-        // {
-        //   task: "Worked on Super Mom portal's home page ",
-        //   link: "",
-        // },
-        // {
-        //   task: "Created a form for olypiad registration",
-        // },
-      ],
-      learning: "React js, HTML, SCSS",
-    },
-    {
-      designation: "Developer (Intern)",
-      duration: "Jan 2020 - Jul 2020",
-      company: "NOKIA NETWORKS",
-      location: "Chennai, Tamil Nadu",
-      summary:
-        "Developer for Analytic Team on Network Analyzer and Complete Network Insights.",
-      details: [
-        {
-          task: "Acquired an understanding of docker, Kubernetes, helm, Hadoop, Kafka, Jenkins, and DevOps.",
-          link: "",
-        },
-        {
-          task: "Significantly reduced workload by developing a Helm configuration file for MariaDB installation and management. Achieved a remarkable 90% workload reduction by automating Kubernetes configuration and eliminating manual setup. Streamlined efficiency in managing MariaDB setup effortlessly.",
-          link: "",
-        },
-        // {
-        //   task: "Created override file to change configuration from helm file (over Kubernetes) for installation of MariaDB.",
-        //   link: "",
-        // },
-        {
-          task: "Wrote JMX(Jmeter) script for performance testing our application.",
-          link: "",
-        },
-      ],
-      learning:
-        "Java, Docker, Kubernetes, Helm. Learned Basics of Hadoop, kafka, Jenkins, devTools",
-    },
-    {
-      designation: "Java Developer (Intern)",
-      duration: "Dec 2018 - Jan 2019",
-      company: "SYNORIQ",
-      location: "Jaipur, Rajasthan",
-      summary:
-        "Developed Java software, with Selenium web drivers, and sikuli script(for image processing) to auto and stream-line signing of digital records, saving 99% of manual work",
-      details: [
-        // {
-        //   task: "Developed a Java based software, with Selenium web drivers, and sikuli script(for image processing) for automating and streamlining digital signing of records. The software used a simple UI for inputs(username, password, and digital key code) and scrapped through multiple EPFO pages, automatically opening each page that required a list of records to be signed, and signing them. Since each digital signature took around 5 minutes to process, the software would allow a person to simply leave the code running over night, and have all records signed, thus saving major chunk of their time.",
-        //   link: "",
-        // },
-      ],
-      learning:
-        "Java, Selenium Web Drivers, Web Automation using java, Sikuli Script",
-    },
-  ],
+  {
+    designation: "Full Stack Developer | UI/UX",
+    duration: "April 2024 - Present",
+    company: "Drive Social Media",
+    location: "St. Louis, Missouri",
+    summary:
+      "Contributed across frontend, backend, and UX, delivering scalable visualizations, reusable systems, and backend APIs for data-rich marketing tools.",
+    details: [
+      {
+        task: "Designed interactive Funnel, Line, and Bar chart visualizations using custom SVG and React — replaced chart libraries to reduce bundle size and speed up insight delivery by 25%.",
+      },
+      {
+        task: "Architected a reusable TanStack table system with interactivity and accessibility — reduced frontend build time by 50% across 4+ analytics dashboards.",
+      },
+      {
+        task: "Built a modular component library (filters, navigation, multi-selects) using TanStack Router and Tailwind — improved UX consistency and cut UI dev time by 40%.",
+      },
+      {
+        task: "Improved accessibility and testability by enforcing ARIA roles and modularizing interaction logic — lifted Lighthouse scores and reduced QA cycles by 20%.",
+      },
+      {
+        task: "Mentored junior engineers and scaled feature velocity by abstracting complex UI logic into composable utilities — reducing onboarding ramp-up by 30%.",
+      },
+      {
+        task: "Designed UX prototype in Figma for internal Data Uploader — enabled rollout and improved CRM to FB attribution workflow speed by 40%.",
+      },
+      {
+        task: "Delivered backend endpoints in NestJS and optimized SQL views for client-specific data — improved API performance and accelerated dashboard delivery by 30%.",
+      },
+    ],
+  },
+  {
+    designation: "Web Developer - Frontend, Mentor",
+    duration: "May 2021 - January 2022",
+    company: "Synoriq",
+    location: "Jaipur, Rajasthan",
+    summary:
+      "Led a frontend team to deliver features and data integrations for GoodWorker's job portal, while mentoring junior developers and improving recruiter workflows.",
+    details: [
+      {
+        task: "Led a 5-member team for GoodWorker’s job portal (beta), coordinating backend-frontend flow with GraphQL APIs and Jira-based scrum updates.",
+      },
+      {
+        task: "Implemented a two-page job posting form with prefill and draft-saving — reduced posting time by 35%.",
+      },
+      {
+        task: "Developed job listings and a candidate management system — increased recruiter productivity by 25%.",
+      },
+      {
+        task: "Pioneered decentralized job posting — reduced single-point failure risk by 99%.",
+      },
+      {
+        task: "Mentored interns in React.js (TypeScript) and accelerated development through targeted skill-building.",
+      },
+    ],
+  },
+  {
+    designation: "Web Developer - Frontend",
+    duration: "July 2020 - May 2021",
+    company: "Udayy",
+    location: "Gurugram, Haryana",
+    summary:
+      "Revamped a high-traffic React website with performance and UX improvements while leading backend-integrated tools for internal operations.",
+    details: [
+      {
+        task: "Revamped React-based website for sub-3s loading on 4G, improving UX and achieving 20% higher conversions and 15% lower bounce rate.",
+      },
+      {
+        task: "Led internal portal development for cross-platform updates — reduced manual processes by 40% and improved collaboration efficiency by 20%.",
+      },
+      {
+        task: "Expanded event registration reach by 30% via a redesigned signup form for Olympiads.",
+      },
+      {
+        task: "Built SuperMoms affiliate marketing page — increased traffic by 30% and broadened user base.",
+      },
+    ],
+  },
+  {
+    designation: "Software Developer Intern",
+    duration: "Jan 2020 - Jul 2020",
+    company: "Nokia Networks",
+    location: "Chennai, Tamil Nadu",
+    summary:
+      "Supported DevOps team in automating infrastructure setup and performance testing for Network Insights platform.",
+    details: [
+      {
+        task: "Reduced MariaDB setup workload by 90% via Helm-based Kubernetes automation for the analytics platform.",
+      },
+      {
+        task: "Wrote JMeter (JMX) scripts for performance testing distributed services.",
+      },
+    ],
+  },
+  {
+    designation: "Java Developer Intern",
+    duration: "Dec 2018 - Jan 2019",
+    company: "Synoriq",
+    location: "Jaipur, Rajasthan",
+    summary:
+      "Developed automation tooling in Java for digital signing workflows — streamlining manual operations.",
+    details: [
+      {
+        task: "Built Java-based software with Selenium and Sikuli to automate digital signature processes — saving ~99% of manual effort.",
+      },
+    ],
+  },
+],
+
 };

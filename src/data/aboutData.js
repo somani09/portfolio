@@ -5,11 +5,15 @@ import image4 from "../assets/images/aboutImages/image4.jpg";
 
 export const aboutData = {
   aboutIntro:
-    "Oh, Hey there, I am Vaibhav Somani, Computer Science Graduate Seeking Full-Time Opportunities from December 2023. As a software Engineer specializing in Web Development, I've worked as a React JS developer for over a year, with my most recent position as team lead and mentor, I have become proficient at creating mobile-first, dynamic, and responsive websites. A quick bit about my hobby, I love making music in my spare time.",
+    "Hey there! I'm Vaibhav Somani — a Full Stack Developer with 3+ years of experience and a Master's in Computer Science from Arizona State University. I specialize in building performant, scalable, and accessible web applications using modern tools like React, Next.js, TypeScript, and Node.js. With hands-on experience across frontend and backend systems, I've worked on high-impact analytics platforms, reusable UI systems, and internal data tooling. Outside of code, I enjoy making music and experimenting with sound design.",
+
   loopImages: [image1, image2, image3, image4],
-  subHeading: "Front End, React Developer",
+
+  subHeading: "Full Stack Developer | React, Next.js, Node.js",
+
   moreInfo:
-    "With solid foundations in Java and JavaScriot, my initial development journey started with creating Java software. But after learning about web development and being fascinated and amused by the quality and features React Js brings to the table when it comes to Front end Development, I've been thrilled to learn and work with React JS, with its vast community support, stability, scalability, performance, and yet a simple to use code base. Currently, I am working with Next.js",
+    "I began my development journey with Java and C++, building console apps and backend logic. Over time, I transitioned into full stack web development — mastering JavaScript, TypeScript, and frameworks like React, Next.js, and TanStack. I’ve led frontend revamps, engineered reusable component libraries, contributed backend endpoints in NestJS, and prototyped data tools in Figma.I'm passionate about building intuitive user experiences backed by clean, scalable architecture. Recently, I’ve been working on building RESTful APIs, improving SQL query performance, and learning scalable backend patterns using NestJS and PostgreSQL.",
+
   info: [
     {
       title: "Birthday",
@@ -21,11 +25,11 @@ export const aboutData = {
     },
     {
       title: "City",
-      value: "Tempe, Arizona, 85281, US",
+      value: "St Louis, MO, 63101, US",
     },
     {
       title: "Age",
-      value: "25",
+      value: "27",
     },
     {
       title: "Qualification",
@@ -37,3 +41,4 @@ export const aboutData = {
     },
   ],
 };
+

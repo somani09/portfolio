@@ -27,7 +27,7 @@ function ResumeMain() {
         <button
           onClick={(e) => {
             window.open(
-              "https://drive.google.com/file/d/178iWMsqHki1BHKRJK4N8bAKvTqaDFSQm/",
+              "https://drive.google.com/file/d/1Z1fCLyLam-5qKpOrnI5HU8jeWsf-S0Sd",
               "_blank"
             );
           }}

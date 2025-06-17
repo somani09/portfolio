@@ -13,7 +13,7 @@ import {socialsData} from '../../data/socialsData'
 function Home() {
 
     // const [iconsDelay, setIconsDelay] = useState(8)
-    const iconsDelay = 8
+    const iconsDelay = 4
     const [name, setName] = useState("");
     const [descr, setDescr] = useState("");
 
@@ -22,8 +22,8 @@ function Home() {
             setName(value => value + "Vaibhav")
         }, 200);
         const desTimeout = setTimeout(() => {
-            setDescr(value => value + "Front end Developer")
-        }, 3500);
+            setDescr(value => value + "Full Stack Software Developer")
+        }, 1500);
         return () => {
             clearTimeout(desTimeout)
             clearTimeout(nameTimeout)

@@ -11,7 +11,7 @@ function Typer({text, className}) {
             setCurrentText( value => value + text.charAt(index.current));
             if(index.current < text.length)
                 index.current += 1;
-        }, 200);
+        }, 100);
         return () => {
             clearTimeout(timeoutId)
         }
